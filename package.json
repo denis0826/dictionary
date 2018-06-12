@@ -1,0 +1,22 @@
+{
+  "name": "synonym-jumpcut",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "node-fetch": "^2.1.2",
+    "oxford-dictionary": "^1.4.1",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
