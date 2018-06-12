@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const request = require('request');
-const https = require('https');
 const Dictionary = require('oxford-dictionary');
 const bodyParser = require('body-parser');
 
